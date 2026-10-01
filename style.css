@@ -75,8 +75,8 @@ color: #461b26;
 border: 0.0625em solid #38131c;
 background: transparent;
 padding:  0.3125em;
-border-radius: 10px;
-margin: 10px;
+border-radius: 0.625em;
+margin: 0.625em;
 transition: all 0.3s ease;
 }
 
@@ -97,17 +97,17 @@ font-size:  3.125em;
 main {
     max-width: 1200px;
     margin: auto;
-    padding: 0 40px;
+    padding: 0 2.5em;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #29242F;
+    border-top: 0.0625em solid #29242F;
 }
 
 hr {
 border: none;
-height: 1px;
+height: 0.0625em;
 background: linear-gradient(
 to right,
 #20151a 0%,
@@ -120,7 +120,7 @@ to right,
 
 .identificacao{
 display: flex;
-gap: 7px;
+gap: 0.4375em;
 }
 
 .sobrenome{
@@ -128,11 +128,11 @@ color: #38131c;
 }
 
 img{
-border: 1px solid #38131c;
+border: 0.06252em solid #38131c;
 }
 
 img:hover{
-filter:blur(3px);
+filter:blur(0.1875em);
 }
 
 .navbar {
@@ -140,21 +140,21 @@ filter:blur(3px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius:20px;
-    padding: 10px 50px;
-    border: 1px solid #29242F;
+    border-radius:1.25em;
+    padding: 0.625em  3.125em;
+    border: 0.0625em solid #29242F;
 }
 
 .n{
 display: flex;
-gap: 10px;
+gap: 0.625em;
 }
 
 .nn{
-border: 1px solid #38131c;
+border: 0.0625em solid #38131c;
 background-color: rgb(56, 19, 28, 0.3);
-padding: 8px;
-border-radius: 20px;
+padding: 0.5em;
+border-radius: 1.25em;
 }
 
 .navegacao a{
@@ -164,16 +164,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .navegacao h3{
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-width: 90px;
+width:  5.625em;
 color: ;
 }
 
 .card img{
-width: 90px;
-border-radius: 10px;
+width:  5.625em;
+border-radius: 0.625em;
 }
 
 .card h3{
-padding-right: 8px;
+padding-right: 0.5em;
 }
 
