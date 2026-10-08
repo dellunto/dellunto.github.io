@@ -57,3 +57,9 @@ padding: .5em;
 border-radius: 10em;
 text-decoration: none;
 }
+
+.botao:hover{
+background-color: rgb(16, 10, 48);
+color: aliceblue;
+border: 1px solid rgb(143, 143, 143);
+}
