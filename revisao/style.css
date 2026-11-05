@@ -1,0 +1,65 @@
+*{
+text-align: center;
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 300px;
+    height: 200px;
+    filter: grayscale(100%);
+    border-radius: 10px;
+   
+   
+}
+.image:hover{
+    filter:none;
+    transition: filter 0.9s;
+    box-shadow: 5px 5px 5px black;
+ 
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+   
+}
+.cards{
+    border:  2px solid black;
+    display: inline-block;
+    width: 100px;  
+    text-align: center;
+   
+}
+.botao{
+    text-decoration: none;
+    background-color: #2457a6;
+    color: white;
+    transition: 0.9s;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 8px;
+    height:;
+    width: 50px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+ 
+.destaque{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(147, 194,147) ;
+
+.sla{
+    justify-content: center;
+align-items: center;
+}
+}
